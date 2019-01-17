@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AgendaWorkingCalendarListModel" representedClassName="AgendaWorkingCalendarListModel" syncable="YES">
+        <attribute name="beginTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dfsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doImg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="planId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wcId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ConfigModuleModel" representedClassName="ConfigModuleModel" syncable="YES">
+        <attribute name="dfsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moduleId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moduleImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moduleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="turn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="IReceivedTaskModel" representedClassName="IReceivedTaskModel" syncable="YES">
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentTaskId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dfsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskImg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userHeadUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LowerOrgModel" representedClassName="LowerOrgModel" syncable="YES">
+        <attribute name="chooseNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSelectAll" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lowerOrg" optional="YES" attributeType="Transformable" valueTransformerName="DJUserOrgAndModuleSaveArray" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgUser" optional="YES" attributeType="Transformable" valueTransformerName="DJUserOrgAndModuleSaveArray" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LowerOrgUserModel" representedClassName="LowerOrgUserModel" syncable="YES">
+        <attribute name="orgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MapNearOrgModel" representedClassName="MapNearOrgModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrgInfoModel" representedClassName="OrgInfoModel" syncable="YES">
+        <attribute name="chooseState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defaultState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RegisteredDataModel" representedClassName="RegisteredDataModel" syncable="YES">
+        <attribute name="jobsID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShowcaseModel" representedClassName="ShowcaseModel" syncable="YES">
+        <attribute name="itemArray" optional="YES" attributeType="Transformable" valueTransformerName="ArrayTransformer" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShufflingFigureModel" representedClassName="ShufflingFigureModel" syncable="YES">
+        <attribute name="dfsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="turn" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TaskCommentsModel" representedClassName="TaskCommentsModel" syncable="YES">
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentTaskId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dfsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evaContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evaImg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userHeadUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TaskPushMsgModel" representedClassName="TaskPushMsgModel" syncable="YES">
+        <attribute name="alias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extras" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="magId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="platform" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TaskStepModel" representedClassName="TaskStepModel" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dfsUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evaRank" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserDataModel" representedClassName="UserDataModel" syncable="YES">
+        <attribute name="realName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tokenTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WorkingCalendarListModel" representedClassName="WorkingCalendarListModel" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wcId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wcName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AgendaWorkingCalendarListModel" positionX="-45" positionY="90" width="128" height="270"/>
+        <element name="ConfigModuleModel" positionX="-54" positionY="54" width="128" height="165"/>
+        <element name="IReceivedTaskModel" positionX="-45" positionY="135" width="128" height="330"/>
+        <element name="LowerOrgModel" positionX="-45" positionY="135" width="128" height="180"/>
+        <element name="LowerOrgUserModel" positionX="-45" positionY="135" width="128" height="150"/>
+        <element name="OrgInfoModel" positionX="-54" positionY="54" width="128" height="165"/>
+        <element name="RegisteredDataModel" positionX="-63" positionY="27" width="128" height="120"/>
+        <element name="ShowcaseModel" positionX="-45" positionY="135" width="128" height="75"/>
+        <element name="ShufflingFigureModel" positionX="-36" positionY="153" width="128" height="105"/>
+        <element name="TaskCommentsModel" positionX="-27" positionY="153" width="128" height="180"/>
+        <element name="TaskPushMsgModel" positionX="-45" positionY="135" width="128" height="255"/>
+        <element name="TaskStepModel" positionX="-36" positionY="144" width="128" height="135"/>
+        <element name="UserDataModel" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="WorkingCalendarListModel" positionX="-54" positionY="63" width="128" height="163"/>
+        <element name="MapNearOrgModel" positionX="-45" positionY="135" width="128" height="150"/>
+    </elements>
+</model>

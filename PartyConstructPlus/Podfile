@@ -1,0 +1,15 @@
+target 'PartyConstructPlus' do
+platform :ios,'8.0'
+inhibit_all_warnings!
+pod 'SDWebImage'
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+pod 'UMCAnalytics'
+pod 'UMCCommonLog'
+pod 'MBProgressHUD'
+pod 'IQKeyboardManager'
+pod 'JPush','~>3.1.0'
+pod 'AFNetworking'
+pod "BaiduMapKit" #百度地图SDK
+pod 'MJRefresh'
+end

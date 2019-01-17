@@ -1,0 +1,67 @@
+//
+//  DJPrefixHeader.pch
+//  PartyConstructPlus
+//
+//  Created by 石山岭 on 2018/4/19.
+//  Copyright © 2018年 石山岭. All rights reserved.
+//头文件
+
+#ifndef DJPrefixHeader_pch
+#define DJPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DJURLDefine.h"//接口
+
+#import "DJLayoutDefine.h"//布局
+
+#import "DJConfigDefine.h"//配置
+
+#import "DJCorolDefine.h"
+//自定义控件
+#import "DJButton.h"
+#import "SMKPickerView.h"//为什么使用市民卡的控件?因为上个版本使用的这个,,赶时间啊 没时间自己封装一个
+#import "CZPhotoPickerController.h"
+#import "JKCountDownButton.h"
+#import "DJCustomModuleNavigationBarView.h"
+#import "DJDataEmptyView.h"
+#import "SMKWebView.h"
+
+#import "DJMJRefreshGifHeader.h"
+#import "DJMJRefreshGitFooter.h"
+//工具
+#import "NSDate+GFCalendar.h"
+#import "SMKSecurity.h"
+#import "SMKNetConnect.h"
+#import "DJZhengZe.h"
+#import "DJUserTool.h"
+#import "SmkBaseFuncation.h"//由于项目有些东西之前是使用的市民卡的,所以不得不使用市民卡的一些类
+#import "UIButton+Badge.h"
+#import "UIButton+Bootstrap.h"
+#import "NSString+DJString.h"
+#import "UIImage+data.h"
+#import "CommonUtil.h"
+//第三方布局
+#import "SDAutoLayout.h"
+#import <AFNetworking.h>
+
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "LBPhotoBrowserManager.h"//图片预览
+//model
+#import "UserDataModel+CoreDataProperties.h"
+#import "OrgInfoModel+CoreDataProperties.h"
+#import "WorkingCalendarListModel+CoreDataProperties.h"
+#import "AgendaWorkingCalendarListModel+CoreDataProperties.h"
+#import "ConfigModuleModel+CoreDataProperties.h"
+
+#import "LowerOrgModel+CoreDataProperties.h"
+#import "LowerOrgUserModel+CoreDataProperties.h"
+#import "IReceivedTaskModel+CoreDataProperties.h"
+#import "TaskStepModel+CoreDataProperties.h"
+
+#import "AAGlobalMacro.h"//图表
+
+#endif /* DJPrefixHeader_pch */
